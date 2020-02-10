@@ -28,7 +28,7 @@ article {
     background-color: rgba (255,255,255,0.8);
     position: relative;
     transition: margin-top 0.5s cubic-bezier(.32,.88,.99,.53);
-    overflow: auto;
+    /* overflow: auto; */
     
     
     /* padding: 1em 1em 1em 2em  ; */
@@ -72,6 +72,11 @@ section:hover article {
         margin-top: -380px;
     }
 }
+iframe{
+    allowtransparency: true;
+    frameborder: 0;
+}
+
 footer{
     text-align: center;
     grid-column: 1/-1;
